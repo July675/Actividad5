@@ -12,7 +12,7 @@ public class Libro {
 
 	// costructor con parametros
 	public Libro(String titulo, String autor, int isbn, int ejemplares) {
-		this.titulo = titulo;
+		this.titulo = titulo.toUpperCase();;
 		this.autor = autor;
 		this.isbn = isbn;
 		this.ejemplares = ejemplares;

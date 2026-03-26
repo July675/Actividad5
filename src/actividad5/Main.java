@@ -42,7 +42,6 @@ public class Main {
 		System.out.println("Datos del libro 3: "+ libro3.mostrarDatos());
 		System.out.println("Datos del libro 4: "+ libro4.mostrarDatos());
 		System.out.println("Datos del libro 5: "+ libro5.mostrarDatos());
-		System.out.println("Datos del libro 6: "+ libro6.mostrarDatos());
 		
 	}
 }

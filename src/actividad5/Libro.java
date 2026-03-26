@@ -79,7 +79,10 @@ public class Libro {
 	}
 
 	public String mostrarDatos() {
-		return "Libro [titulo=" + titulo + ", autor=" + autor + ", isbn=" + isbn + ", ejemplares=" + ejemplares + "]";
+		return "Libro [titulo=" + titulo + ", autor=" + autor + ", isbn=" + isbn + ", ejemplares=" + ejemplares
+				+ ", prestamo()=" + prestamo() + ", devolucion()=" + devolucion() + "]";
 	}
+
+	
 
 }
